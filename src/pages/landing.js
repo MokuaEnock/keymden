@@ -1,5 +1,9 @@
 import "./landing.css";
 
 export default function Landing() {
-  return <main>This is the landing page</main>;
+  return (
+    <main>
+      <section id="landing-section1">This is the landing page</section>
+    </main>
+  );
 }
