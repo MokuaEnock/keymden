@@ -1,0 +1,21 @@
+.countdown {
+  width: 50%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.countdown > span {
+  color: var(--primary);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.countdown > p {
+  color: lightslategrey;
+  font-size: 1.3rem;
+  text-align: center;
+}

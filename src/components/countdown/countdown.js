@@ -27,8 +27,8 @@ export default function Countdown() {
 
   return (
     <div className="countdown" aria-live="assertive">
-      <span>Countdown to May 5, 2023:</span>
-      <span>{countdown}</span>
+      <span>May 5, 2023</span>
+      <p>{countdown}</p>
     </div>
   );
 }

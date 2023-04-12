@@ -20,6 +20,9 @@ main {
   justify-content: flex-start;
 }
 
+body {
+  background-color: azure;
+}
 main > * {
   width: 85%;
 }
