@@ -1,4 +1,18 @@
 #landing-section1 {
-  border: thin solid var(--primary);
+  /* border: thin solid var(--primary); */
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#landing-section1 > h1 {
+  font-size: 2rem;
+  color: var(--primary);
+}
+
+#landing-section1 > p {
+  font-size: 1rem;
+  color: lightslategrey;
 }
