@@ -1,8 +1,9 @@
 header {
   width: 100%;
   height: 10vh;
-  border: thin solid black;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--primary);
+  color: white;
 }
