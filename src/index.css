@@ -21,8 +21,9 @@ main {
 }
 
 body {
-  background-color: azure;
+  background-color: whitesmoke;
 }
+
 main > * {
   width: 85%;
 }
